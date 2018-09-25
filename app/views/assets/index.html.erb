@@ -1,0 +1,5 @@
+<%@assets.each do |asset|  %>
+<%= asset.name  %>
+<%= asset.price  %>
+<%= link_to "View details", asset_path(asset)  %>
+<% end %>
